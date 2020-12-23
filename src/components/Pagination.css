@@ -1,0 +1,9 @@
+.btn {
+    padding: 0.8rem 1rem;
+    margin: 0 0.4rem;
+    background: var(--yellow);
+}
+
+.btn:focus {
+    background: var(--yellow-dark);
+}

@@ -1,0 +1,17 @@
+.logo {
+    font-size: 1.6rem;
+    font-weight: var(--bold);
+}
+
+.bb-logo {
+    height: 7rem;
+}
+
+.search {
+    border: 0.1rem solid var(--black);
+    padding: 0.4rem 2rem;
+}
+
+.search:focus {
+    border:none;
+}

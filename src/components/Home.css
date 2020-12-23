@@ -1,0 +1,75 @@
+.char-card {
+    border: 0.2rem solid var(--yellow);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.char-card:hover::after {
+    content: "View Character >";
+    color: var(--black);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.6rem;
+    background: var(--yellow);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.name {
+    font-size: 1.2rem;  
+    font-weight: var(--bold);
+}
+
+.label {
+    font-size: 1rem;  
+    font-weight: var(--regular);
+}
+
+.data {
+    font-size: 1rem;  
+    font-weight: var(--medium);
+}
+
+.status {
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.dead {
+    border: 0.2rem solid var(--red);
+    color: var(--red);
+}
+
+.alive {
+    border: 0.2rem solid var(--green);
+    color: var(--green);
+}
+
+.pdead {
+    border: 0.2rem solid var(--orange);
+    color: var(--orange);
+}
+
+.long {
+    width: 15rem;
+    display: flex;
+    justify-content: left;
+}
+
+.medium {
+    width: 12rem;
+}
+
+.small {
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+}

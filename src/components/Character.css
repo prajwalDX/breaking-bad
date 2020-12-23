@@ -1,0 +1,26 @@
+.card {
+     border: 0.2rem solid var(--yellow);
+     padding: 2rem 1rem;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    height: 26rem;
+    width: auto;
+    border-radius: 0.4rem;
+    background: var(--placeholder); 
+}
+
+.btn {
+    padding: 0.4rem 2rem;
+    background: var(--yellow);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background:   var(--yellow-dark);
+}
